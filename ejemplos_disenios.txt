@@ -1,0 +1,20 @@
+El header e imagen grande como este ejemplo (home)
+https://codepen.io/Stiino0/full/rVgqNP
+
+Ya realice el header  OK
+
+About
+https://codepen.io/theds/full/dzbbpK
+
+Ya realice el about OK
+
+Portfolio
+https://codepen.io/HarshitOjha/full/MWKBYLQ
+
+Ya realice el Portfolio OK
+
+Contac me (pero que no sea modal)
+https://codepen.io/theds/full/dzbbpK
+
+
+Tendra efecto scrollbar auto al dar click en el menu header y sera un menu fijado

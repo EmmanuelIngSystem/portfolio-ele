@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background: #5f2c82;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #49a09d, #5f2c82);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #49a09d, #5f2c82); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+}
+
+/* cabecera */
+.nav-bar{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: #222;
+  border-color: #080808;
+  border-bottom: 1px solid #fff;
+  z-index: 2;
+}
+
+.nav-bar ul{
+  width: 50%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin: 0% 2% 0% 50%;
+}
+
+.nav-bar ul{
+  list-style: none;
+}
+
+.nav-bar ul li{
+  padding: 20px 10px;
+}
+
+.nav-bar ul li>a{
+  font-size: 1.5vw;
+  text-decoration: none;
+  color: #9d9d9d;
+}
+
+.nav-bar ul li>a:hover{
+  color: #fff;
+}
+/* cabecera */
+
+/* home */
+.container_home{
+  width: 100%;
+  background: #43cea2;
+  background: linear-gradient(to left, #43cea2, #185a9d);
+  height: 100vh;
+}
+
+.body_home{
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.container_home h1{
+  font-family: 'Courier Prime', monospace;
+  font-size: 3vw;
+  text-shadow: 4px 5px #484848;
+}
+
+.soft_skills_main{
+  text-align: center;
+  margin: 10px 0px;
+  text-transform: uppercase;
+  text-shadow: 1px 3px #484848;
+  font-size: 1.5vw;
+}
+
+.soft_skills_main span{
+  padding: 0px 10px;
+}
+
+.body_home hr{
+  width: 100%;
+  color: #fff;
+  margin: 15px 0px;
+}
+
+.buttons_home{
+  width: 100%;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.buttons_home button{
+  padding: 10px 0px;
+  margin: 0px 10px;
+  border: 1px solid #fff;
+  outline: none;
+  background: transparent;
+  transition: 0.3s;
+}
+
+.buttons_home button i{
+  font-size: 1.5vw;
+}
+
+i#linkedin{
+  color: #0177B5;
+}
+
+i#youtube{
+  color: #FF0A0A;
+}
+
+.buttons_home button span{
+  margin-left: 5px;
+  color: #fff;
+}
+
+.buttons_home button:hover{
+  cursor: pointer;
+  background: rgba(255, 255, 255, 0.5);
+}
+/* home */
+
+/*  about */
+.contaner_about{
+  width: 100%;
+  background-color: #222;
+  height: 80vh;
+  color: #9d9d9d;
+  font-family: 'Courier Prime', monospace;
+  padding: 35px 0px;
+}
+
+.contaner_about h2{
+  text-align: center;
+}
+
+.container_about_description{
+  margin: 2% 5%;
+}
+
+.container_about_description img{
+  width: 100%;
+}
+
+.container_about_description p{
+  text-align: left;
+  padding: 5px 0px;
+}
+
+.container_about_description h2{
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+
+.list_hard_skills{
+  width: 100%;
+  margin: 3% 0%;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  text-transform: uppercase;
+}
+
+.list_hard_skills li{
+  position: relative;
+  margin: 10px 0px;
+  border: 1px solid #fff;
+  width: 60%;
+  padding: 10px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.list_hard_skills li i{
+  float: right;
+}
+
+.list_hard_skills li .tooltip{
+  position: absolute;
+  right: -110%;
+  top: 0%;
+  border: 1px solid #fff;
+  width: 100%;
+  z-index: 2;
+  background: #000;
+  padding: 8px;
+}
+
+.list_hard_skills li:hover{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+/*  about */
+
+/* portfolio */
+
+#title_gral_portfolios{
+  font-family: 'Courier Prime', monospace;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0px;
+}
+
+.container_portfolio{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  color: #404040;
+  font-family: 'Courier Prime', monospace;
+}
+
+.box_project{
+  border: 1px solid #fff;
+  margin: 2% 3%;
+}
+
+.box_project img{
+  width: 100%;
+}
+
+.box_project h4{
+  padding: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.box_project span{
+  margin: 15px 0px 15px 5px;
+  padding: 5px 3px;
+  border: 1px solid #fff;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 0.8vw;
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.box_project button{
+  font-family: 'Courier Prime', monospace;
+  margin-top: 20px;
+  padding: 10px 0px;
+  width: 100%;
+  background: transparent;
+  border: 1px solid #fff;
+  transition: 0.3s;
+}
+
+.box_project button:hover{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+/* portfolio */
+
+/* contact me */
+.container_form_contactme{
+  border-top: 1px solid #fff;
+  width: 100%;
+  margin: 10px 0px;
+  font-family: 'Courier Prime', monospace;
+  color: #404040;
+}
+
+.container_form_contactme h2{
+  padding: 10px 0px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#form_contactme{
+  width: 75%;
+  margin: auto;
+  padding: 20px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+#form_contactme:hover{
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+#form_contactme label{
+  display: block;
+  margin: 1% 0%;
+}
+
+.symbol_require{
+  display: inline;
+  font-weight: 700;
+  color: #990000;
+}
+
+#form_contactme input, #form_contactme textarea{
+  width: 100%;
+  margin: 1.5% 0%;
+  background: transparent;
+  border: 1px solid #fff;
+  border: none;
+  outline: none;
+  border-bottom:1px solid #fff;
+  color: #fff;
+}
+
+#form_contactme textarea{
+  height: 100px;
+}
+
+.message_require{
+  color: #990000;
+  padding: 1% 0%;
+  border-bottom: 1px solid #990000;
+}
+
+#form_contactme button{
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border: 1px solid #fff;
+  color: #fff;
+  margin: 1.5% 0%;
+  padding: 15px 0px;
+}
+
+#form_contactme button:hover{
+  background: rgba(0, 0, 0, 0.5);
+  color: #fff;
+  cursor: pointer;
+}
+
+/* contact me */
+
+/* media querie */
+@media (max-width: 900px) {
+  .nav-bar ul li>a{
+    font-size: 2vw;
+  }
+
+  .container_home h1{
+    font-size: 6vw;
+    text-align: center;
+  }
+
+  .body_home {
+    width: 100%;
+    left: 0%;
+  }
+
+  .contaner_about{
+    height: auto;
+  }
+
+  .contaner_about h2{
+    font-size: 5vw;
+  }
+
+  .contaner_about .container_about_description h2{
+    font-size: 5vw;
+  }
+
+  .list_hard_skills{
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  #title_gral_portfolios{
+    font-size: 5vw;
+  }
+
+  .container_portfolio{
+    grid-template-columns: auto;
+  }
+
+  .box_project span{
+    font-size: 2.5vw;
+  }
+
+  .box_project button{
+    font-size: 3.5vw;
+  }
+}
+
+/* media querie */
